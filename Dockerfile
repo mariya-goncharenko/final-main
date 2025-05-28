@@ -13,5 +13,3 @@ COPY --from=builder /parcel /parcel
 COPY tracker.db .
 
 ENTRYPOINT ["/parcel"]
-
-# Для теста
