@@ -10,7 +10,7 @@ on:
 env:
   REGISTRY: docker.io
   IMAGE_NAME: mariyagoncharenko/final-main
-  GO_VERSION: "1.22"
+  GO_VERSION: "1.23.2"
 
 jobs:
   test:
